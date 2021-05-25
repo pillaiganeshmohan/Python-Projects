@@ -5,15 +5,15 @@ from tkinter import *
 root = Tk()
 root.geometry('400x400')
 root.config(bg = 'SlateGray3')
-root.title('DataFlair-AddressBook')
+root.title('AddressBook')
 root.resizable(0,0)
 contactlist = [
-    ['Parv Maheswari',  '0176738493'],
-    ['David Sharma',  '2684430000'],
-    ['Mandish Kabra',   '4338354432'],
-    ['Prisha Modi','6834552341'],
-    ['Rahul kaushik',   '1234852689'],
-    ['Johena Shaa' , '2119876543'],
+    ['Ganesh Mohan',  '0176738493'],
+    ['Dave Bhandari',  '2684430000'],
+    ['Raj Mhatre',   '4338354432'],
+    ['Ishwari Chirlekar','6834552341'],
+    ['Snehal Thakur',   '1234852689'],
+    ['Aqsa Sarnaik' , '2119876543'],
     ]
 
 Name = StringVar()
