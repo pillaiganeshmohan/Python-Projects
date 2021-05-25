@@ -5,7 +5,7 @@ from math import factorial
 
 
 root = Tk()
-root.title('DataFlair - Calculator')
+root.title('Calculator')
 
 #It keeps the track of current position on the input text field
 i = 0
