@@ -2,7 +2,7 @@ from tkinter import *
 import tkinter.messagebox as msg
 
 root= Tk()
-root.title('TIC-TAC-TOE---Project Gurukul')
+root.title('TIC-TAC-TOE Game')
 #labels
 Label(root,text="player1 : X",font="times 15").grid(row=0,column=1)
 Label(root,text="player2 : O",font="times 15").grid(row=0,column=2)
