@@ -1,6 +1,3 @@
-#                                 Welcome to DataFlair Hangman Game:
-
-
 import random
 import time
 
