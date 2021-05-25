@@ -6,7 +6,7 @@ import time
 
 #creating turtle screen
 screen = turtle.Screen()
-screen.title('DATAFLAIR-SNAKE GAME')
+screen.title('SNAKE GAME')
 screen.setup(width = 700, height = 700)
 screen.tracer(0)
 turtle.bgcolor('turquoise')
