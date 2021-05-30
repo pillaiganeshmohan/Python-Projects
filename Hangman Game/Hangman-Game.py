@@ -1,7 +1,6 @@
 import random
 import time
 
-# Initial Steps to invite in the game:
 print("\nWelcome to Hangman game by Ganesh\n")
 name = input("Enter your name: ")
 print("Hello " + name + "! Best of Luck!")
@@ -9,8 +8,6 @@ time.sleep(2)
 print("The game is about to start!\n Let's play Hangman!")
 time.sleep(3)
 
-
-# The parameters we require to execute the game:
 def main():
     global count
     global display
@@ -27,8 +24,6 @@ def main():
     already_guessed = []
     play_game = ""
 
-# A loop to re-execute the game when the first round ends:
-
 def play_loop():
     global play_game
     play_game = input("Do You want to play again? y = yes, n = no \n")
@@ -40,7 +35,6 @@ def play_loop():
         print("Thanks For Playing! We expect you back again!")
         exit()
 
-# Initializing all the conditions required for the game:
 def hangman():
     global count
     global display
@@ -53,7 +47,6 @@ def hangman():
     if len(guess.strip()) == 0 or len(guess.strip()) >= 2 or guess <= "9":
         print("Invalid Input, Try a letter\n")
         hangman()
-
 
     elif guess in word:
         already_guessed.extend([guess])
@@ -137,8 +130,6 @@ def hangman():
     elif count != limit:
         hangman()
 
-
 main()
-
 
 hangman()
